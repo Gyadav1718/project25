@@ -32,36 +32,8 @@ class dustbin
 
 			push()
 			imageMode(CENTER);
-			image(this.image, 1200, 580,200,130);
+			image(this.image, 1200, 600,200,160);
 			translate(posLeft.x, posLeft.y);
-			rectMode(CENTER)
-			
-			angleMode(RADIANS)
-			fill(255)
-			stroke(255)
-			rotate(this.angle)
-			rect(0,0,this.wallThickness, this.dustbinHeight);
-			pop()
-
-			push()
-			translate(posRight.x, posRight.y);
-			rectMode(CENTER)
-			
-			stroke(255)
-			angleMode(RADIANS)
-			fill(255)
-			rotate(-1*this.angle)
-			rect(0,0,this.wallThickness, this.dustbinHeight);
-			pop()
-
-			push()
-			translate(posBottom.x, posBottom.y);
-			rectMode(CENTER)
-			
-			stroke(255)
-			angleMode(RADIANS)
-			fill(255)
-			rect(0,0,this.dustbinWidth, this.wallThickness);
 			pop()
 			
 	}
