@@ -43,10 +43,9 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(0);
-  dustbinObj.display();
-  groundObj.display();
-  
+ groundObj.display();
   paperObj.display();
+  dustbinObj.display();
   
   
  
