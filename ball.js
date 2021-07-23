@@ -32,12 +32,12 @@ class paper
 			translate(paperpos.x, paperpos.y);
 			imageMode(CENTER);
 			image(this.image,0,0,this.width,this.height);
-			rectMode(CENTER)
-			strokeWeight(3);
+			//rectMode(CENTER)
+			//strokeWeight(3);
 			fill("white")
 			
 			
-			ellipse(0,0,this.r, this.r);
+			//ellipse(0,0,this.r, this.r);
 			pop()
 			
 	}
